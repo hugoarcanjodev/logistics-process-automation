@@ -1,0 +1,29 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+ENV/
+*.venv
+
+# Arquivos de Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Dados e Outputs (Não envie bases locais ou relatórios gerados ao GitHub)
+data/*.xlsx
+data/*.csv
+output/*.xlsx
+output/*.csv
+*.xlsx
+
+# Configurações de IDEs e Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
